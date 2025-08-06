@@ -1,1 +1,25 @@
+{
+  "name": "devniox/license-manager",
+  "description": "Laravel License Manager for Domain Permission",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "you@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Devniox\\LicenseManager\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Devniox\\LicenseManager\\LicenseServiceProvider"
+      ]
+    }
+  }
+}
 
